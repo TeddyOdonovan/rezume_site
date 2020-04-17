@@ -1,0 +1,93 @@
+body {
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  background: #ffffff url("img/keks-background.jpg") no-repeat 50% 0;
+}
+
+h1 {
+  width: 260px;
+  font-family: "Georgia", serif;
+  font-size: 36px;
+  line-height: 36px;
+}
+
+h2 {
+  padding-bottom: 12px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.site-header {
+  margin-bottom: 30px;
+}
+
+.skills-item {
+  margin-bottom: 15px;
+  padding-left: 20px;
+  border-left: 10px solid #c4c4c4;
+  color: #999999;
+}
+
+.standart {
+  border-color: #ffc5b3;
+  color: #666666;
+}
+
+/* Добавьте правило ниже */
+
+.vip {
+  border-color: #ff5a26;
+  color: #000000;
+}
+
+.container {
+  width: 480px;
+  margin: 0 auto;
+}
+
+.site-header img {
+  display: block;
+  margin: 0 auto;
+}
+
+.features {
+  margin-bottom: 30px;
+}
+
+.features p {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  margin: 0 5px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.feature-kitten {
+  padding-top: 60px;
+  background-image: url("img/bottle.svg");
+}
+
+.feature-cat {
+  padding-top: 60px;
+  background-image: url("img/cat.svg");
+}
+
+.feature-train {
+  padding-top: 60px;
+  background-image: url("img/whistle.svg");
+}
+
+.skills-list {
+  padding: 0;
+  list-style: none;
+}
+
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  color: #999999;
+}
